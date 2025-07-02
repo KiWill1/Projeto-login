@@ -1,5 +1,49 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    body{
+        background-color: lightgray;
+    }
+    
+    section#login{
+        width: 85%;
+        height: 80%;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 99%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) and (orientation: landscape){
+
+    body{
+        background-image: linear-gradient(to top, rgba(192, 187, 187, 0.979), rgb(34, 32, 32));
+    }
+
+    section#login{
+        width: 90vw;
+        height: 80%;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 99%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
@@ -21,6 +65,8 @@
     }
 }
 
+
+/*Dispositvos Grandes*/
 @media screen and (min-width: 992px) {
 
     body{
